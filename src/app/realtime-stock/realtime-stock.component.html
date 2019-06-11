@@ -1,0 +1,59 @@
+
+<br>
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-3 card card-detail">
+        <select (change) = "onSymbolChange($event)">
+            <option *ngFor = "let symbol of symbols" [value]="symbol.symbol">{{symbol.name}}</option>
+          </select>
+          <br><br>
+          <div class = "row">
+            <div class = "col-md-6">
+              Open
+            </div>
+            <div class = "col-md-6 text-right">
+              {{open}}
+            </div>
+          </div>
+          <hr>
+          <div class = "row">
+            <div class = "col-md-6">
+              High
+            </div>
+            <div class = "col-md-6 text-right">
+              {{high}}
+            </div>
+          </div>
+          <hr>
+          <div class = "row">
+            <div class = "col-md-6">
+              Low
+            </div>
+            <div class = "col-md-6 text-right">
+              {{low}}
+            </div>
+          </div>
+          <hr>
+          <div class = "row">
+            <div class = "col-md-6">
+              Close
+            </div>
+            <div class = "col-md-6 text-right">
+              {{close}}
+            </div>
+          </div>
+          <hr>
+          <div class = "row">
+            <div class = "col-md-6">
+              Volume
+            </div>
+            <div class = "col-md-6 text-right">
+              {{volume}}
+            </div>
+          </div>
+    </div>
+    <div class = "col-md-9 card card-chart">
+      <div [chart]="chart"></div>
+    </div>
+  </div>
+</div>

@@ -152,6 +152,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/elements@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-8.0.0.tgz#7d25f95ba6854adb7361f106701cb1280394867f"
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/forms@~7.2.0":
   version "7.2.15"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-7.2.15.tgz#6b6e10b5f4687b6be3081abcc02a055b3ceeb6d8"
@@ -559,6 +565,12 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+angular-highcharts@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/angular-highcharts/-/angular-highcharts-8.0.2.tgz#9ce8f81c9aa863695046f85551908f2e4d2c7fc2"
+  dependencies:
+    tslib "^1.9.0"
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -931,6 +943,10 @@ bonjour@^3.5.0:
     dns-txt "^2.0.2"
     multicast-dns "^6.0.1"
     multicast-dns-service-types "^1.1.0"
+
+bootstrap@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -2597,6 +2613,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
+
+highcharts@^7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-7.1.2.tgz#f337e75cf0614f58f87fb28fbab48e1096265b5d"
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
