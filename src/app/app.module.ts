@@ -22,13 +22,17 @@ import { RealtimeStockComponent } from './realtime-stock/realtime-stock.componen
   entryComponents: [RealtimeStockComponent]
 })
 export class AppModule {
-  constructor(private  injector: Injector) {
+  constructor(private injector: Injector) {
   }
   ngDoBootstrap() {
-// Convert `RealtimeStockComponent` to a custom element.
-const element = createCustomElement(RealtimeStockComponent, { injector: this.injector });
-// Register the custom element with the browser.
-customElements.define('realtime-stock', element);
+    // Convert `RealtimeStockComponent` to a custom element.
+    // createCustomElement<P>(component: Type<any>, config: NgElementConfig): NgElementConstructor<P>
+    // A configuration that initializes an NgElementConstructor with the dependencies and strategy it
+    // needs to transform a component into a custom element class
+
+    const element = createCustomElement(RealtimeStockComponent, { injector: this.injector });
+    // Register the custom element with the browser.
+    customElements.define('realtime-stock', element);
 
   }
 }
